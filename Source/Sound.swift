@@ -31,7 +31,7 @@ fileprivate var associatedSoundCompletionKey = "kAssociatedSoundCompletionKey"
 public class Sound : NSObject, Playable {
     
     /// The player that will play the sound.
-    var player: AVAudioPlayer?
+    public var player: AVAudioPlayer?
     
     /// The name of the sound (file name with extension).
     public var name: String?
